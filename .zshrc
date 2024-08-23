@@ -6,7 +6,7 @@
 plugins=(
     zsh-autosuggestions zsh-syntax-highlighting
     # conda-zsh-completion
-    extract sudo git
+    extract sudo git bazel
 )
 
 # prompt
