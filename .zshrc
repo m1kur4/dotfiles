@@ -205,7 +205,6 @@ if [ -x "$(command -v fzf)" ]; then
   fi
 fi
 
-
 # mcfly
 if [ -x "$(command -v mcfly)" ]; then
     eval "$(mcfly init zsh)"

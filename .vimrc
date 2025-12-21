@@ -25,3 +25,5 @@ set rtp^="/home/azathoth/.opam/cs164/share/ocp-indent/vim"
 " Fixes mouse issues using Alacritty terminal
 """""""""""""""""""""""""""""""""""""""""""""
 set ttymouse=sgr
+
+set clipboard+=unnamedplus
