@@ -44,3 +44,4 @@ yabai -m rule --add app="^Raycast$" manage=off
 yabai -m rule --add app="^CrossOver$" manage=off
 yabai -m rule --add app="^LunaTranslator_" manage=off
 yabai -m rule --add app="^FlClash$" manage=off
+yabai -m rule --add app="^Anki$" manage=off
