@@ -1,6 +1,5 @@
 # Launch App
-alt - return : open -a "/Applications/Warp.app"
-alt - f : open -a Finder
+#alt - return : open -a "/Applications/Warp.app"
 
 # -- Changing Window Focus --
 
