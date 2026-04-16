@@ -237,6 +237,15 @@ fi
 
 ########### UTIL-FUNCS-START ###########
 
+## yazi shortcut
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
 ## proxy related function
 function pr() {
     case $1 in
