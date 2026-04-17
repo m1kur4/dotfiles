@@ -337,3 +337,4 @@ econ() {
 
 ########### UTIL-FUNCS-END ###########
 
+export PATH="$HOME/.local/bin:$PATH"
