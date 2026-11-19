@@ -43,7 +43,7 @@ yabai -m rule --add app="^LunaTranslator_" manage=off
 yabai -m rule --add app="^FlClash$" manage=off
 yabai -m rule --add app="^Anki$" manage=off
 yabai -m rule --add app="^Activity Monitor$" manage=off
-
+yabai -m rule --add app="^Ryujinx" manage=off
 
 yabai -m rule --add title="^Settings$" manage=off
 yabai -m rule --add title="^WITCH ON THE" manage=off
