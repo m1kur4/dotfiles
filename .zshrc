@@ -45,6 +45,7 @@ fi
 if [ -z "$XDG_CACHE_HOME" ]; then
     export XDG_CACHE_HOME="$HOME/.cache"
 fi
+
 export XMONAD_CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/xmonad" # xmonad.hs is expected to stay here
 export XMONAD_DATA_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/xmonad"
 export XMONAD_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/xmonad"
@@ -188,9 +189,9 @@ if [ -x "$(command -v neovide)" ]; then
 fi
 
 # ranger
-if [ -x "$(command -v ranger)" ]; then
-    alias r="ranger"
-fi
+#if [ -x "$(command -v ranger)" ]; then
+#    alias r="ranger"
+#fi
 
 # screenfetch
 if [ -x "$(command -v screenfetch)" ]; then
